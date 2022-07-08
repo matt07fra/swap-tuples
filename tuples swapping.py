@@ -1,3 +1,4 @@
+#this code is to swap two tuples
 a=(1,2,3)
 b=(4,5,6)
 print("before swapping:",a,b)
@@ -6,4 +7,4 @@ b=list(b)
 a,b=b,a
 a=tuple(a)
 b=tuple(b)
-print("after swapping:",a,b)
+print("after swapping:",a,b) #final result of tuples
